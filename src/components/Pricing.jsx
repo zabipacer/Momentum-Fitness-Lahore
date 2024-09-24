@@ -72,7 +72,7 @@ const PricingSection = () => {
               <FaTimes size="1.5rem" />
             </button>
             <form
-              className="w-full"
+              className="w-full p-3"
               action="https://formspree.io/f/mblrvrwk"
               method="POST"
             >
