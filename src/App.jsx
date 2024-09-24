@@ -18,7 +18,7 @@ import ContactSection from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-  const whatsappNumber = "030241234540"; // Replace with the actual phone number
+  const whatsappNumber = "03024123454"; // Replace with the actual phone number
 
   return (
     <>
