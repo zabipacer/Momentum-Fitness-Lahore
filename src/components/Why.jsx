@@ -32,7 +32,7 @@ const WhyChooseUsSection = () => {
         {/* Image on Right */}
         <div className="md:w-1/2 w-full">
           <img 
-            src="/public/why.jpg" 
+            src="/why.jpg" 
             alt="Gym Facilities" 
             className="rounded-lg shadow-lg"
           />
