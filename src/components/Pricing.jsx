@@ -54,7 +54,7 @@ const PricingSection = () => {
                   <p className="text-sm text-gray-400 mb-2">
                     {plan.title} {price.amount}/{price.duration}
                   </p>
-                  <button className="bg-[#ff0032] hover:bg-white hover:text-[#ff0032] text-white font-bold py-2 px-4 rounded-full transition-all duration-300">
+                  <button formAction='#contact' className="bg-[#ff0032] hover:bg-white hover:text-[#ff0032] text-white font-bold py-2 px-4 rounded-full transition-all duration-300">
                     Book Now
                   </button>
                 </div>

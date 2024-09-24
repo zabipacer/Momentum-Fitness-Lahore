@@ -1,31 +1,12 @@
-import React, { useState } from 'react';
 
 const HeroSection = () => {
-  const [position, setPosition] = useState(0);
-  const [dragging, setDragging] = useState(false);
-
-  const handleMouseDown = () => {
-    setDragging(true);
-  };
-
-  const handleMouseUp = () => {
-    setDragging(false);
-  };
-
-  const handleMouseMove = (e) => {
-    if (dragging) {
-      const containerWidth = window.innerWidth;
-      const newPosition = Math.min(containerWidth - 112, Math.max(0, e.clientX - 56)); // Restrict within window bounds (112px for logo width)
-      setPosition(newPosition);
-    }
-  };
+  
+  
 
   return (
     <div 
       className="relative bg-[#0d1b2a] h-screen flex items-center justify-center"
-      onMouseMove={handleMouseMove}
-      onMouseUp={handleMouseUp}
-      onMouseLeave={handleMouseUp}
+      
     >
       {/* Background Video */}
       <video
@@ -41,10 +22,11 @@ const HeroSection = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white">
-        {/* Draggable Logo */}
+        {/*  Logo */}
         <div
-          className="relative mb-6 rounded-full shadow-[0_0_30px_5px_rgba(255,0,50,0.6)] cursor-pointer transition-all duration-300"
-          style={{ left:'315px', top: '0px', width: '112px', height: '112px',  }}  // Control the position based on state
+         
+          className="mx-auto mb-6 rounded-full cursor-pointer transition-all duration-300 shadow-[0_0_30px_5px_rgba(255,0,50,0.6)]"
+          style={{ width: '112px', height: '112px' }} 
           
         >
           <img src="/public/Logo.jpg" alt="Gym Logo" className="h-28 w-28 rounded-full" />
