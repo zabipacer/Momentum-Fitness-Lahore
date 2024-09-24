@@ -10,7 +10,7 @@ const Navbar = () => {
         {/* Logo and Gym Name */}
         <div className="flex items-center">
           <img 
-            src="/public/Logo.jpg" 
+            src="/Logo.jpg" 
             alt="Gym Logo" 
             className="h-12 mr-2 rounded-full" 
           />
