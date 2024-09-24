@@ -8,7 +8,7 @@ const AboutSection = () => {
         {/* Image on Left */}
         <div className="md:w-1/2 w-full mb-8 md:mb-0">
           <img 
-            src="/public/About.jpg" 
+            src="/About.jpg" 
             alt="Gym Interior" 
             className="rounded-lg shadow-lg"
           />

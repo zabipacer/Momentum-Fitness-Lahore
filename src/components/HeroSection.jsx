@@ -11,7 +11,7 @@ const HeroSection = () => {
       {/* Background Video */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/public/9A4636B3FC39EA904F4F7254C7E348A4_video_dashinit.mp4"
+        src="/9A4636B3FC39EA904F4F7254C7E348A4_video_dashinit.mp4"
         autoPlay
         loop
         muted
@@ -29,7 +29,7 @@ const HeroSection = () => {
           style={{ width: '112px', height: '112px' }} 
           
         >
-          <img src="/public/Logo.jpg" alt="Gym Logo" className="h-28 w-28 rounded-full" />
+          <img src="/Logo.jpg" alt="Gym Logo" className="h-28 w-28 rounded-full" />
         </div>
 
         {/* Inspirational Text */}

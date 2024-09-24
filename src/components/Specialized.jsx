@@ -1,13 +1,12 @@
-import React from 'react';
 
 const SpecializationSection = () => {
   const specializations = [
-    { title: 'Hypertrophy Training', img: '/public/H1.jpg' },
-    { title: 'Crossfit Training', img: '/public/H2.jpg' },
-    { title: 'High Intensity Interval Training', img: '/public/H3.jpg' },
-    { title: 'Strength Conditioning', img: '/public/H4.jpg' },
-    { title: 'Suspension Training', img: '/public/H5.jpg' },
-    { title: 'TRX Training', img: '/public/H6.jpg' }
+    { title: 'Hypertrophy Training', img: 'H1.jpg' },
+    { title: 'Crossfit Training', img: '/H2.jpg' },
+    { title: 'High Intensity Interval Training', img: '/H3.jpg' },
+    { title: 'Strength Conditioning', img: '/H4.jpg' },
+    { title: 'Suspension Training', img: '/H5.jpg' },
+    { title: 'TRX Training', img: '/H6.jpg' }
   ];
 
   return (

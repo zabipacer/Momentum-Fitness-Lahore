@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ImageGridSection = () => {
-  const images = Array.from({ length: 8 }, (_, index) => `/public/${index + 1}.jpg`);
+  const images = Array.from({ length: 8 }, (_, index) => `/${index + 1}.jpg`);
 
   return (
     <section id='gallery' className="bg-[#0d1b2a] py-16">
