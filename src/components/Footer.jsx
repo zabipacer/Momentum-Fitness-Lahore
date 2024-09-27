@@ -9,10 +9,10 @@ const Footer = () => {
         <div className="mb-4 md:mb-0">
           <h4 className="font-bold text-lg mb-2">Follow Us</h4>
           <div className="flex space-x-4">
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/MomentumFitnessLHR/" aria-label="Facebook">
               <FaFacebookF size={24} />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.instagram.com/momentumfitnesslhr/?hl=en" aria-label="Instagram">
               <FaInstagram size={24} />
             </a>
             <a href="#" aria-label="Twitter">
