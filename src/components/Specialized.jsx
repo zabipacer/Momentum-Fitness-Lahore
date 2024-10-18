@@ -1,12 +1,12 @@
 
 const SpecializationSection = () => {
   const specializations = [
-    { title: 'Hypertrophy Training', img: 'H1.jpg' },
-    { title: 'Crossfit Training', img: '/H2.jpg' },
-    { title: 'High Intensity Interval Training', img: '/H3.jpg' },
-    { title: 'Strength Conditioning', img: '/H4.jpg' },
-    { title: 'Suspension Training', img: '/H5.jpg' },
-    { title: 'TRX Training', img: '/H6.jpg' }
+    { title: 'Hypertrophy Training', img: 'S11.jpg' },
+    { title: 'Crossfit Training', img: '/S2.jpg' },
+    { title: 'High Intensity Interval Training', img: '/S3.jpg' },
+    { title: 'Strength Conditioning', img: '/S4.jpg' },
+    { title: 'Suspension Training', img: '/S6.jpg' },
+    { title: 'TRX Training', img: '/S7.jpg' }
   ];
 
   return (

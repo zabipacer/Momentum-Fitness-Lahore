@@ -6,28 +6,30 @@ const PricingSection = () => {
 
   const pricingPlans = [
     {
-      title: 'Standard Package',
+      title: 'Monthly Package',
       prices: [
-        { duration: 'Monthly', amount: 6000 },
-        { duration: '3 Months', amount: 15000 },
+        { duration: 'Monthly', amount: 7000 },
+        { duration: 'Registration', amount: 3000 },
         { duration: '6 Months', amount: 27000 },
       ],
     },
     {
       title: 'Gold Package',
       prices: [
-        { duration: 'Monthly', amount: 8000 },
-        { duration: '3 Months', amount: 20000 },
-        { duration: '6 Months', amount: 40000 },
+        { duration: 'Quarterly Package', amount: 24000 },
+        { duration: 'Registration', amount: 3000 },
+        
       ],
     },
     {
       title: 'Personal Trainer',
-      prices: [{ duration: 'Monthly', amount: 25000 }],
+      prices: [{ duration: 'Monthly (Might change depending on the type of training)', amount: 15000 }],
     },
     {
-      title: 'Gym Bar Charges',
-      prices: [{ duration: 'Monthly', amount: 5000 }],
+      title: 'Half Yearly Package',
+      prices: [{ duration: '6 Months', amount: 36000 },
+        { duration: 'Registration', amount: 0 }
+      ],
     },
   ];
 

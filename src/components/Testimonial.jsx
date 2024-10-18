@@ -4,20 +4,24 @@ import './Testimonial.css'; // Ensure to create this CSS file for animations
 
 const testimonials = [
   {
-    text: "Momentum Fitness has completely transformed my fitness journey. The trainers are incredibly supportive!",
-    name: "Sarah J.",
+    text: "I recently had the opportunity to experience Momentum Fitness gym and wanted to share my thoughts on the overall experience. The gym undoubtedly boasts an impressive array of equipment, leaving no stone unturned in providing a comprehensive workout environment. The presence of highly trained professionals adds a layer of expertise and guidance that greatly enhances the fitness journey.",
+    name: "Rana Kamran",
   },
   {
-    text: "I've seen amazing results with the hypertrophy training program. Highly recommend!",
-    name: "Michael P.",
+    text: "Absolutely love Momentum! The atmosphere is incredibly motivating, and the gym is always clean and well-equipped. The instructors are top-notch—especially Suleman bhai, who brings energy and expertise to every activity. His personalized attention and support have really helped me reach my fitness goals. The community is welcoming and encouraging, making every workout a great experience. Highly recommend Momentum to anyone looking to elevate their fitness journey!",
+    name: "Naveed Munawar",
   },
   {
-    text: "The community here is fantastic! I love coming to workouts and meeting new friends.",
-    name: "Jessica L.",
+    text: "Hands down one of the best gym in the area. While I was visiting Pakistan I got stuck there due to the pandemic and I had a chance to workout in Momentum fitness. It was a pleasant experience for me and I would highly recommend this gym. Mr Jahanzeb and Mr Mohsin have always been so professional with their clients.",
+    name: "Haris Shan",
   },
   {
-    text: "The facilities are top-notch, and the trainers are always there to guide you.",
-    name: "Daniel R.",
+    text: "Best gym in JT⭐ an excellent experience overall including the staff, the owner and definitely the gym👌",
+    name: "Hassan Sohail",
+  },
+  {
+    text: "An excellent place to achieve your fitness goals in such an environment where highly experienced and qualified trainers are available.",
+    name: "Muhammad Ikhlaq",
   },
 ];
 
