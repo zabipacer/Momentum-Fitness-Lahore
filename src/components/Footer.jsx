@@ -39,7 +39,7 @@ const Footer = () => {
         <div className="text-center md:text-left md:w-1/3">
           <h4 className="font-bold text-lg mb-2">Get in Touch</h4>
           <p>If you have any questions, feel free to reach out!</p>
-          <p>Email: <a href="mailto:info@momentumfitness.com" className="hover:underline">info@momentumfitness.com</a></p>
+          <p>Email: <a href="mailto:momentumfitnesslhr@gmail.com" className="hover:underline">momentumfitnesslhr@gmail.com</a></p>
         </div>
       </div>
 

@@ -75,7 +75,7 @@ const PricingSection = () => {
             </button>
             <form
               className="w-full p-3"
-              action="https://formspree.io/f/mblrvrwk"
+              action="https://formsubmit.co/momentumfitnesslhr@gmail.com"
               method="POST"
             >
               <div className="mb-4">
