@@ -10,7 +10,7 @@ const PricingSection = () => {
       prices: [
         { duration: 'Monthly', amount: 7000 },
         { duration: 'Registration', amount: 3000 },
-        { duration: '6 Months', amount: 27000 },
+        
       ],
     },
     {

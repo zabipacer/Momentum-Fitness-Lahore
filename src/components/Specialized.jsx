@@ -4,7 +4,7 @@ const SpecializationSection = () => {
     { title: 'Hypertrophy Training', img: 'S11.jpg' },
     { title: 'Crossfit Training', img: '/S2.jpg' },
     { title: 'High Intensity Interval Training', img: '/S3.jpg' },
-    { title: 'Strength Conditioning', img: '/S4.jpg' },
+    { title: 'Strength Conditioning', img: '/8.png' },
     { title: 'Suspension Training', img: '/S6.jpg' },
     { title: 'TRX Training', img: '/S7.jpg' }
   ];
