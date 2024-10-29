@@ -34,7 +34,7 @@ const ContactSection = () => {
 
         {/* Contact Form */}
         <div className="md:w-1/2">
-          <form className="bg-[#1b2a3a] p-6 rounded-lg shadow-lg max-w-sm mx-auto md:max-w-full "  action="https://formsubmit.co/momentumfitnesslhr@gmail.com" method="POST">
+          <form className="bg-[#1b2a3a] p-6 rounded-lg shadow-lg max-w-sm mx-auto md:max-w-full "  action="https://formspree.io/f/xnnqjypq" method="POST">
             <div className="mb-4">
               <input
                 id='name'
