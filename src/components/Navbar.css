@@ -1,0 +1,51 @@
+/* Custom CSS for sliding animation */
+.menu-open {
+    max-height: 500px; /* Adjust based on content size */
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 1;
+    visibility: visible;
+}
+  
+.menu-closed {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* Mobile menu style */
+@media (max-width: 768px) {
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 90%;
+    }
+  
+    li {
+      margin: 10px 0; /* Space between links */
+    }
+  
+    a {
+      font-size: 1.5rem; /* Increase link size */
+    }
+}
+
+/* Ensure links are visible on larger screens */
+@media (min-width: 769px) {
+    ul {
+        display: flex; /* Ensure links are displayed in a row */
+    }
+
+    .menu-open {
+        max-height: none; /* Allow full height on larger screens */
+    }
+
+    .menu-closed {
+        max-height: none; /* Allow full height on larger screens */
+        opacity: 1; /* Keep it visible */
+        visibility: visible; /* Keep it visible */
+    }
+}
