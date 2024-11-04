@@ -18,13 +18,12 @@ const AboutSection = () => {
         <div className="md:w-1/2 w-full md:pl-12  px-5 md:px-0 ">
           {/* Heading */}
           <h2 className="text-3xl md:text-5xl font-bold text-[#ff0032] mb-6">
-            About
+            About Momentum Fitness Lahore
           </h2>
 
           {/* Paragraph */}
           <p className="text-[1rem] sm:py-5 md:py-0 px-2 md:px-0 md:text-xl mb-6 text-justify">
-            Since 2019, Momentum Fitness Lahore has been a driving force in redefining fitness journeys. We believe in more than just working out; we believe in creating a balanced, powerful, and enduring lifestyle. With world-class trainers, advanced equipment, and a personalized approach, we guide you through every step of your transformation. Momentum Fitness is where passion meets progress—let’s take that first step together!
-          </p>
+        Momentum Fitness Lahore is more than a gym—it’s a community where transformation happens. Since opening our doors in 2019, we’ve focused on creating a fitness environment that encourages growth, confidence, and progress. With state-of-the-art equipment, experienced trainers, and a supportive community, we help our members meet and exceed their goals. At Momentum Fitness, we specialize in customized fitness plans tailored to your needs, whether you're aiming for weight loss, muscle gain, or enhanced endurance. Join us today and experience what makes us one of the top fitness centers in Lahore!   </p>
 
           {/* Call to Action Button */}
           <a
