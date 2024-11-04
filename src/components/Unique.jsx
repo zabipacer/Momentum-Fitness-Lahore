@@ -7,8 +7,7 @@ const UniqueSection = () => {
           We Are Limitless
         </h2>
         <p className="text-lg text-justify md:text-xl leading-relaxed  md:text-center">
-          At <span className="font-bold">Momentum Fitness Lahore</span>, we redefine fitness by combining cutting-edge techniques with an unwavering dedication to your transformation. We believe that true fitness is a journey, not a destination. With every workout, you’ll unlock new levels of strength, endurance, and confidence.
-        </p>
+         Welcome to <span className="font-bold">Momentum Fitness Lahore</span>, where your fitness journey takes center stage! Since 2019, we've helped people across Lahore unlock their potential with personalized training programs, world-class facilities, and an inclusive, motivating community. Whether you’re here to build strength, improve endurance, or just get in the best shape of your life, we’re here to support every step of the way. </p>
        
       </div>
     </section>
